@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
 function createToDo(description){
   let btn = document.createElement('button')
   btn.addEventListener('click', handleDelete)
-  btn.textContent = "x"
+  btn.textContent = "remove"
   let listItems = document.createElement('li');
   listItems.textContent = description;
   listItems.appendChild(btn)
